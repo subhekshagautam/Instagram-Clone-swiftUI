@@ -10,9 +10,40 @@ import SwiftUI
 struct ProfileView: View {
     
     var body: some View {
-        
-     PostGridView()
-        
+        ScrollView{
+            VStack(spacing: 20) {
+                ProfileHeaderView()
+                
+                HStack() {
+                    Button {
+                        
+                    } label: {
+                        Text("Edit Profile")
+                            .font(.system(size: 16, weight: .semibold))
+                            .frame(width: 350, height: 32)
+                            .foregroundColor(.white)
+                            .background(Color.gray)
+                            .cornerRadius(10)
+                    }
+                    
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "person.badge.plus")
+                            .font(.system(size: 14, weight: .semibold))
+                            .frame(width: 40, height: 32)
+                            .foregroundColor(.white)
+                            .background(Color.gray)
+                            .cornerRadius(5)
+                    }
+                    
+                }
+                
+                
+                PostGridView()
+                
+            }.padding(.top)
+        }
     }
 }
 
