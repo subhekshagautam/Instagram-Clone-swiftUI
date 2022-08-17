@@ -31,7 +31,9 @@ struct ForgotPasswordView: View {
                     .foregroundColor(.gray)
                     .padding(.horizontal, 32)
             }
-            CustomButton(buttonTitle: "Reset Password")
+            CustomButton(buttonTitle: "Reset Password"){
+                
+            }
             Spacer()
             
             NavigationLink(destination: SignUpView().navigationBarHidden(true), label: {

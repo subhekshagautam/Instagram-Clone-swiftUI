@@ -47,7 +47,9 @@ struct SignUpView: View {
                     }
                     
                 }
-                CustomButton(buttonTitle: "Login")
+                CustomButton(buttonTitle: "Login"){
+                    
+                }
                 Spacer()
                 
                 NavigationLink(destination: RegisterView().navigationBarHidden(true), label: {

@@ -10,12 +10,10 @@ import SwiftUI
 struct CustomButton: View {
     
     var buttonTitle : String
-    
+    var clicked: (() -> Void) /// use closure for callback
     var body: some View {
 
-        Button {
-            
-        } label: {
+        Button(action: clicked , label: {
             Text(buttonTitle)
                 .font(.headline)
                 .frame(width: 360, height: 50)
@@ -23,13 +21,13 @@ struct CustomButton: View {
                 .background(Color.blue)
                 .cornerRadius(10)
                 .padding()
-        }
+        })
         
     }
 }
 
 struct CustomButton_Previews: PreviewProvider {
     static var previews: some View {
-        CustomButton(buttonTitle: "hello")
+        CustomButton(buttonTitle: "hello"){}
     }
 }

@@ -13,6 +13,7 @@ struct RegisterView: View {
     @State var email = ""
     @State var password = ""
     
+    @EnvironmentObject var viewModel: AuthViewModel
     var body: some View {
         
         NavigationView{
@@ -24,7 +25,7 @@ struct RegisterView: View {
                     .frame(width: 220, height: 220)
                     .foregroundColor(.black)
                 VStack(spacing: -16){
-                    CustomSecureField(text: $username, placeholder: Text("Username"), imageName: "person.circle")
+                    CustomTextField(text: $username, placeholder: Text("Username"), imageName: "person.circle")
                         .padding()
                         .cornerRadius(10)
                         .foregroundColor(.gray)
@@ -34,14 +35,15 @@ struct RegisterView: View {
                         .cornerRadius(10)
                         .foregroundColor(.gray)
                         .padding(.horizontal, 32)
-                    CustomSecureField(text: $email, placeholder: Text("Password"), imageName: "lock")
+                    CustomSecureField(text: $password, placeholder: Text("Password"), imageName: "lock")
                         .padding()
                         .cornerRadius(10)
                         .foregroundColor(.gray)
                         .padding(.horizontal, 32)
                 }
-                
-                CustomButton(buttonTitle: "Register")
+                CustomButton(buttonTitle: "Register"){
+                    viewModel.register(withEmail:email , withPassword: password)
+                }
                 
                 Spacer()
                 
