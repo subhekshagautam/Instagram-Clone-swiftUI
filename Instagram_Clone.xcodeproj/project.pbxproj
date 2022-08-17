@@ -19,6 +19,13 @@
 		07AF716F28AA54A700BCCD94 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF716E28AA54A700BCCD94 /* TextArea.swift */; };
 		07AF717128AA5A7B00BCCD94 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF717028AA5A7B00BCCD94 /* ProfileHeaderView.swift */; };
 		07AF717328AA5BD000BCCD94 /* UserStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF717228AA5BD000BCCD94 /* UserStats.swift */; };
+		07AF717628AB771600BCCD94 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF717528AB771600BCCD94 /* RegisterView.swift */; };
+		07AF717828AB772A00BCCD94 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF717728AB772A00BCCD94 /* SignUpView.swift */; };
+		07AF717A28AB814600BCCD94 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF717928AB814600BCCD94 /* CustomTextField.swift */; };
+		07AF717C28AB854000BCCD94 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF717B28AB853F00BCCD94 /* CustomSecureField.swift */; };
+		07AF717E28ABC81300BCCD94 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF717D28ABC81300BCCD94 /* CustomButton.swift */; };
+		07AF718028ABD60800BCCD94 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF717F28ABD60800BCCD94 /* ForgotPasswordView.swift */; };
+		07AF718228AC814300BCCD94 /* GoogleService-Info .plist in Resources */ = {isa = PBXBuildFile; fileRef = 07AF718128AC814300BCCD94 /* GoogleService-Info .plist */; };
 		07FAF4B8289A119400251C9A /* Instagram_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FAF4B7289A119400251C9A /* Instagram_CloneApp.swift */; };
 		07FAF4BA289A119400251C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FAF4B9289A119400251C9A /* ContentView.swift */; };
 		07FAF4BC289A119600251C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FAF4BB289A119600251C9A /* Assets.xcassets */; };
@@ -70,6 +77,13 @@
 		07AF716E28AA54A700BCCD94 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 		07AF717028AA5A7B00BCCD94 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		07AF717228AA5BD000BCCD94 /* UserStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStats.swift; sourceTree = "<group>"; };
+		07AF717528AB771600BCCD94 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		07AF717728AB772A00BCCD94 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		07AF717928AB814600BCCD94 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		07AF717B28AB853F00BCCD94 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		07AF717D28ABC81300BCCD94 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		07AF717F28ABD60800BCCD94 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		07AF718128AC814300BCCD94 /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info .plist"; sourceTree = "<group>"; };
 		07FAF4B4289A119400251C9A /* Instagram_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FAF4B7289A119400251C9A /* Instagram_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_CloneApp.swift; sourceTree = "<group>"; };
 		07FAF4B9289A119400251C9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -138,6 +152,16 @@
 			path = Items;
 			sourceTree = "<group>";
 		};
+		07AF717428AB76FF00BCCD94 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				07AF717528AB771600BCCD94 /* RegisterView.swift */,
+				07AF717728AB772A00BCCD94 /* SignUpView.swift */,
+				07AF717F28ABD60800BCCD94 /* ForgotPasswordView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		07FAF4AB289A119400251C9A = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +191,7 @@
 				07FAF4E2289A11E300251C9A /* ViewModel */,
 				07FAF4E1289A11D100251C9A /* Views */,
 				07FAF4B7289A119400251C9A /* Instagram_CloneApp.swift */,
+				07AF718128AC814300BCCD94 /* GoogleService-Info .plist */,
 				07FAF4BB289A119600251C9A /* Assets.xcassets */,
 				07FAF4BD289A119600251C9A /* Preview Content */,
 			);
@@ -201,6 +226,7 @@
 		07FAF4E1289A11D100251C9A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				07AF717428AB76FF00BCCD94 /* Authentication */,
 				0784D60528A274E3009F7D14 /* Items */,
 				0784D600289DF10A009F7D14 /* Post */,
 				07FAF4FA289A222F00251C9A /* Profile */,
@@ -231,6 +257,9 @@
 			children = (
 				0784D60A28A33282009F7D14 /* Extensions.swift */,
 				07AF716C28A9EA0600BCCD94 /* ImagePicker.swift */,
+				07AF717928AB814600BCCD94 /* CustomTextField.swift */,
+				07AF717B28AB853F00BCCD94 /* CustomSecureField.swift */,
+				07AF717D28ABC81300BCCD94 /* CustomButton.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -406,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07FAF4BF289A119600251C9A /* Preview Assets.xcassets in Resources */,
+				07AF718228AC814300BCCD94 /* GoogleService-Info .plist in Resources */,
 				07FAF4BC289A119600251C9A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +462,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07FAF500289A228B00251C9A /* SearchView.swift in Sources */,
+				07AF717628AB771600BCCD94 /* RegisterView.swift in Sources */,
 				07FAF504289A22B700251C9A /* MainView.swift in Sources */,
 				0784D602289DF136009F7D14 /* PostView.swift in Sources */,
 				07FAF4BA289A119400251C9A /* ContentView.swift in Sources */,
@@ -440,13 +471,18 @@
 				0784D60F28A346CA009F7D14 /* UserCell.swift in Sources */,
 				07FAF502289A22A300251C9A /* FeedView.swift in Sources */,
 				0784D60B28A33282009F7D14 /* Extensions.swift in Sources */,
+				07AF717828AB772A00BCCD94 /* SignUpView.swift in Sources */,
 				07FAF4FE289A228100251C9A /* NotificationsView.swift in Sources */,
+				07AF717A28AB814600BCCD94 /* CustomTextField.swift in Sources */,
 				07AF716F28AA54A700BCCD94 /* TextArea.swift in Sources */,
 				0784D60728A274F6009F7D14 /* PostGridView.swift in Sources */,
 				07AF717328AA5BD000BCCD94 /* UserStats.swift in Sources */,
 				0784D60928A32AD7009F7D14 /* SearchBar.swift in Sources */,
 				07AF717128AA5A7B00BCCD94 /* ProfileHeaderView.swift in Sources */,
+				07AF718028ABD60800BCCD94 /* ForgotPasswordView.swift in Sources */,
 				0784D60428A26508009F7D14 /* FeedCell.swift in Sources */,
+				07AF717C28AB854000BCCD94 /* CustomSecureField.swift in Sources */,
+				07AF717E28ABC81300BCCD94 /* CustomButton.swift in Sources */,
 				07AF716D28A9EA0600BCCD94 /* ImagePicker.swift in Sources */,
 				0784D61128A36FDD009F7D14 /* NotificationCell.swift in Sources */,
 				0784D60D28A34687009F7D14 /* UserListView.swift in Sources */,
