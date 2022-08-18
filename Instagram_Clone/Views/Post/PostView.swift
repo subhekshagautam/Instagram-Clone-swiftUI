@@ -23,7 +23,7 @@ struct PostView: View {
                 Image(systemName: "plus.circle")
                     .resizable()
                     .scaledToFill()
-                    .frame(width: 100, height: 100)
+                    .frame(width: 30, height: 50)
                     .clipped()
                     .padding(.top)
                     .foregroundColor(.black)

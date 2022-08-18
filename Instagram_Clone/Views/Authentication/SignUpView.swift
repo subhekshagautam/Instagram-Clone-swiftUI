@@ -10,7 +10,7 @@ import SwiftUI
 struct SignUpView: View {
     @State var email = ""
     @State var password = ""
-    
+    @EnvironmentObject var viewModel: AuthViewModel
     var body: some View {
         NavigationView{
             VStack {
@@ -48,7 +48,7 @@ struct SignUpView: View {
                     
                 }
                 CustomButton(buttonTitle: "Login"){
-                    
+                    viewModel.login(withEmail: email, withpassword: password)
                 }
                 Spacer()
                 

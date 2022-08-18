@@ -27,6 +27,9 @@
 		07AF718028ABD60800BCCD94 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF717F28ABD60800BCCD94 /* ForgotPasswordView.swift */; };
 		07AF718928AC86F200BCCD94 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF718828AC86F200BCCD94 /* AuthViewModel.swift */; };
 		07AF719328ACA3A400BCCD94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07AF719228ACA3A400BCCD94 /* GoogleService-Info.plist */; };
+		07AF719628AE30F300BCCD94 /* MainTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF719528AE30F300BCCD94 /* MainTopBarView.swift */; };
+		07AF719828AE49B000BCCD94 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF719728AE49B000BCCD94 /* DropDownView.swift */; };
+		07AF719A28AE567800BCCD94 /* LogoDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF719928AE567800BCCD94 /* LogoDropdown.swift */; };
 		07FAF4B8289A119400251C9A /* Instagram_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FAF4B7289A119400251C9A /* Instagram_CloneApp.swift */; };
 		07FAF4BA289A119400251C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FAF4B9289A119400251C9A /* ContentView.swift */; };
 		07FAF4BC289A119600251C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FAF4BB289A119600251C9A /* Assets.xcassets */; };
@@ -86,6 +89,9 @@
 		07AF717F28ABD60800BCCD94 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		07AF718828AC86F200BCCD94 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		07AF719228ACA3A400BCCD94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		07AF719528AE30F300BCCD94 /* MainTopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTopBarView.swift; sourceTree = "<group>"; };
+		07AF719728AE49B000BCCD94 /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		07AF719928AE567800BCCD94 /* LogoDropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoDropdown.swift; sourceTree = "<group>"; };
 		07FAF4B4289A119400251C9A /* Instagram_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FAF4B7289A119400251C9A /* Instagram_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_CloneApp.swift; sourceTree = "<group>"; };
 		07FAF4B9289A119400251C9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -200,6 +206,16 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		07AF719428AE302500BCCD94 /* TopBarView */ = {
+			isa = PBXGroup;
+			children = (
+				07AF719528AE30F300BCCD94 /* MainTopBarView.swift */,
+				07AF719728AE49B000BCCD94 /* DropDownView.swift */,
+				07AF719928AE567800BCCD94 /* LogoDropdown.swift */,
+			);
+			path = TopBarView;
+			sourceTree = "<group>";
+		};
 		07FAF4AB289A119400251C9A = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +280,7 @@
 		07FAF4E1289A11D100251C9A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				07AF719428AE302500BCCD94 /* TopBarView */,
 				07AF717428AB76FF00BCCD94 /* Authentication */,
 				0784D60528A274E3009F7D14 /* Items */,
 				0784D600289DF10A009F7D14 /* Post */,
@@ -511,6 +528,7 @@
 				07FAF4BA289A119400251C9A /* ContentView.swift in Sources */,
 				07FAF4FC289A226400251C9A /* ProfileView.swift in Sources */,
 				07FAF4B8289A119400251C9A /* Instagram_CloneApp.swift in Sources */,
+				07AF719A28AE567800BCCD94 /* LogoDropdown.swift in Sources */,
 				0784D60F28A346CA009F7D14 /* UserCell.swift in Sources */,
 				07FAF502289A22A300251C9A /* FeedView.swift in Sources */,
 				0784D60B28A33282009F7D14 /* Extensions.swift in Sources */,
@@ -521,6 +539,8 @@
 				0784D60728A274F6009F7D14 /* PostGridView.swift in Sources */,
 				07AF717328AA5BD000BCCD94 /* UserStats.swift in Sources */,
 				0784D60928A32AD7009F7D14 /* SearchBar.swift in Sources */,
+				07AF719828AE49B000BCCD94 /* DropDownView.swift in Sources */,
+				07AF719628AE30F300BCCD94 /* MainTopBarView.swift in Sources */,
 				07AF717128AA5A7B00BCCD94 /* ProfileHeaderView.swift in Sources */,
 				07AF718028ABD60800BCCD94 /* ForgotPasswordView.swift in Sources */,
 				0784D60428A26508009F7D14 /* FeedCell.swift in Sources */,

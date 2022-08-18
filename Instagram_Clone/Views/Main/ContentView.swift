@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var viewModel: AuthViewModel
     var body: some View {
-        RegisterView().environmentObject(AuthViewModel())
+       // RegisterView().environmentObject(AuthViewModel.shared)
+        Group{
+            if viewModel.userSession == nil {
+                SignUpView()
+            }
+            else{
+                MainView()
+            }
+        }
     }
 }
 

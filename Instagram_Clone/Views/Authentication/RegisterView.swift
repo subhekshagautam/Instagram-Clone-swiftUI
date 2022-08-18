@@ -42,7 +42,7 @@ struct RegisterView: View {
                         .padding(.horizontal, 32)
                 }
                 CustomButton(buttonTitle: "Register"){
-                    viewModel.register(withEmail:email , withPassword: password)
+                    viewModel.register(withEmail:email , withPassword: password, username: username)
                 }
                 
                 Spacer()
