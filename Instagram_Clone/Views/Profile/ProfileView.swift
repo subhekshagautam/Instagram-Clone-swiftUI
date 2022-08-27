@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct ProfileView: View {
+    let user : User
     
     var body: some View {
         ScrollView{
             VStack(spacing: 20) {
-                ProfileHeaderView()
+                
+                ProfileHeaderView(viewModel: ProfileViewModel(user: user))
                 
                 HStack() {
                     Button {
@@ -20,20 +22,20 @@ struct ProfileView: View {
                     } label: {
                         Text("Edit Profile")
                             .font(.system(size: 16, weight: .semibold))
-                            .frame(width: 350, height: 32)
+                            .frame(width: 320, height: 32)
                             .foregroundColor(.white)
-                            .background(Color.gray)
+                            .background(Color.blue)
                             .cornerRadius(10)
                     }
                     
                     Button {
-                        
+                        AuthViewModel.shared.logout()
                     } label: {
-                        Image(systemName: "person.badge.plus")
+                        Text("Logout")
                             .font(.system(size: 14, weight: .semibold))
-                            .frame(width: 40, height: 32)
+                            .frame(width: 60, height: 32)
                             .foregroundColor(.white)
-                            .background(Color.gray)
+                            .background(Color.red)
                             .cornerRadius(5)
                     }
                     
@@ -47,9 +49,4 @@ struct ProfileView: View {
     }
 }
 
-struct ProfileView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProfileView()
-    }
-}
 

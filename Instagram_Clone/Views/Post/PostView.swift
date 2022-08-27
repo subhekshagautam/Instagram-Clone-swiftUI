@@ -23,7 +23,7 @@ struct PostView: View {
                 Image(systemName: "plus.circle")
                     .resizable()
                     .scaledToFill()
-                    .frame(width: 30, height: 50)
+                    .frame(width: 100, height: 100)
                     .clipped()
                     .padding(.top)
                     .foregroundColor(.black)
@@ -42,9 +42,9 @@ struct PostView: View {
                         .scaledToFill()
                         .frame(width: 96, height: 96)
                         .clipped()
-                    TextArea(text: $captionText, placeholder: "enter your caption here....")
+                    TextField("Enter your caption......", text: $captionText)
                 }
-                .padding()
+                
                 Button {
                     
                 } label: {

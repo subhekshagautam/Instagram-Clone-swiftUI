@@ -9,14 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var viewModel: AuthViewModel
+    
     var body: some View {
-       // RegisterView().environmentObject(AuthViewModel.shared)
         Group{
             if viewModel.userSession == nil {
                 SignUpView()
             }
             else{
-                MainView()
+                if let user = viewModel.currentUser{
+                    
+                    MainView(user: user)
+                }
             }
         }
     }

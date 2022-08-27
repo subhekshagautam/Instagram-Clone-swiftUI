@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct MainView: View {
+    let user: User
     var body: some View {
-        
         
         TabView {
             
@@ -30,15 +30,11 @@ struct MainView: View {
                 Image(systemName: "suit.heart")
             }
             
-            ProfileView().tabItem {
+            ProfileView(user: user).tabItem {
                 Image(systemName: "person.crop.circle")
             }
         }
     }
 }
 
-struct MainView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainView()
-    }
-}
+

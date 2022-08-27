@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct SignUpView: View {
-    @State var email = ""
-    @State var password = ""
+    @State var email = "vikash@gmail.com"
+    @State var password = "vik123"
     @EnvironmentObject var viewModel: AuthViewModel
     var body: some View {
         NavigationView{

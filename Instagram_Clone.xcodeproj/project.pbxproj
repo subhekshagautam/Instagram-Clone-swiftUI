@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07471F1B28B390F600548013 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07471F1A28B390F600548013 /* User.swift */; };
+		07471F1D28B867BA00548013 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07471F1C28B867BA00548013 /* ProfileViewModel.swift */; };
 		0784D602289DF136009F7D14 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0784D601289DF136009F7D14 /* PostView.swift */; };
 		0784D60428A26508009F7D14 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0784D60328A26508009F7D14 /* FeedCell.swift */; };
 		0784D60728A274F6009F7D14 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0784D60628A274F6009F7D14 /* PostGridView.swift */; };
@@ -30,6 +32,10 @@
 		07AF719628AE30F300BCCD94 /* MainTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF719528AE30F300BCCD94 /* MainTopBarView.swift */; };
 		07AF719828AE49B000BCCD94 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF719728AE49B000BCCD94 /* DropDownView.swift */; };
 		07AF719A28AE567800BCCD94 /* LogoDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF719928AE567800BCCD94 /* LogoDropdown.swift */; };
+		07AF719D28AF290600BCCD94 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF719C28AF290600BCCD94 /* BackButton.swift */; };
+		07AF719F28AF5D8100BCCD94 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF719E28AF5D8000BCCD94 /* UploadPostView.swift */; };
+		07AF71A328B1B81E00BCCD94 /* PostImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF71A228B1B81E00BCCD94 /* PostImageView.swift */; };
+		07AF71A528B1BC2800BCCD94 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF71A428B1BC2700BCCD94 /* ImagePickerView.swift */; };
 		07FAF4B8289A119400251C9A /* Instagram_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FAF4B7289A119400251C9A /* Instagram_CloneApp.swift */; };
 		07FAF4BA289A119400251C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FAF4B9289A119400251C9A /* ContentView.swift */; };
 		07FAF4BC289A119600251C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FAF4BB289A119600251C9A /* Assets.xcassets */; };
@@ -69,6 +75,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07471F1A28B390F600548013 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		07471F1C28B867BA00548013 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		0784D601289DF136009F7D14 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		0784D60328A26508009F7D14 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		0784D60628A274F6009F7D14 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
@@ -92,6 +100,10 @@
 		07AF719528AE30F300BCCD94 /* MainTopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTopBarView.swift; sourceTree = "<group>"; };
 		07AF719728AE49B000BCCD94 /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
 		07AF719928AE567800BCCD94 /* LogoDropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoDropdown.swift; sourceTree = "<group>"; };
+		07AF719C28AF290600BCCD94 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		07AF719E28AF5D8000BCCD94 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
+		07AF71A228B1B81E00BCCD94 /* PostImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageView.swift; sourceTree = "<group>"; };
+		07AF71A428B1BC2700BCCD94 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		07FAF4B4289A119400251C9A /* Instagram_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FAF4B7289A119400251C9A /* Instagram_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_CloneApp.swift; sourceTree = "<group>"; };
 		07FAF4B9289A119400251C9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -195,6 +207,7 @@
 		07AF718628AC86C200BCCD94 /* Upload */ = {
 			isa = PBXGroup;
 			children = (
+				07471F1C28B867BA00548013 /* ProfileViewModel.swift */,
 			);
 			path = Upload;
 			sourceTree = "<group>";
@@ -212,6 +225,9 @@
 				07AF719528AE30F300BCCD94 /* MainTopBarView.swift */,
 				07AF719728AE49B000BCCD94 /* DropDownView.swift */,
 				07AF719928AE567800BCCD94 /* LogoDropdown.swift */,
+				07AF719E28AF5D8000BCCD94 /* UploadPostView.swift */,
+				07AF71A228B1B81E00BCCD94 /* PostImageView.swift */,
+				07AF71A428B1BC2700BCCD94 /* ImagePickerView.swift */,
 			);
 			path = TopBarView;
 			sourceTree = "<group>";
@@ -308,6 +324,7 @@
 		07FAF4E3289A11EE00251C9A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				07471F1A28B390F600548013 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -363,6 +380,7 @@
 			children = (
 				07FAF4FD289A228100251C9A /* NotificationsView.swift */,
 				0784D61028A36FDD009F7D14 /* NotificationCell.swift */,
+				07AF719C28AF290600BCCD94 /* BackButton.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -527,6 +545,7 @@
 				0784D602289DF136009F7D14 /* PostView.swift in Sources */,
 				07FAF4BA289A119400251C9A /* ContentView.swift in Sources */,
 				07FAF4FC289A226400251C9A /* ProfileView.swift in Sources */,
+				07AF719F28AF5D8100BCCD94 /* UploadPostView.swift in Sources */,
 				07FAF4B8289A119400251C9A /* Instagram_CloneApp.swift in Sources */,
 				07AF719A28AE567800BCCD94 /* LogoDropdown.swift in Sources */,
 				0784D60F28A346CA009F7D14 /* UserCell.swift in Sources */,
@@ -535,14 +554,18 @@
 				07AF717828AB772A00BCCD94 /* SignUpView.swift in Sources */,
 				07FAF4FE289A228100251C9A /* NotificationsView.swift in Sources */,
 				07AF717A28AB814600BCCD94 /* CustomTextField.swift in Sources */,
+				07AF719D28AF290600BCCD94 /* BackButton.swift in Sources */,
 				07AF716F28AA54A700BCCD94 /* TextArea.swift in Sources */,
 				0784D60728A274F6009F7D14 /* PostGridView.swift in Sources */,
+				07AF71A328B1B81E00BCCD94 /* PostImageView.swift in Sources */,
 				07AF717328AA5BD000BCCD94 /* UserStats.swift in Sources */,
 				0784D60928A32AD7009F7D14 /* SearchBar.swift in Sources */,
 				07AF719828AE49B000BCCD94 /* DropDownView.swift in Sources */,
 				07AF719628AE30F300BCCD94 /* MainTopBarView.swift in Sources */,
 				07AF717128AA5A7B00BCCD94 /* ProfileHeaderView.swift in Sources */,
+				07471F1B28B390F600548013 /* User.swift in Sources */,
 				07AF718028ABD60800BCCD94 /* ForgotPasswordView.swift in Sources */,
+				07AF71A528B1BC2800BCCD94 /* ImagePickerView.swift in Sources */,
 				0784D60428A26508009F7D14 /* FeedCell.swift in Sources */,
 				07AF717C28AB854000BCCD94 /* CustomSecureField.swift in Sources */,
 				07AF717E28ABC81300BCCD94 /* CustomButton.swift in Sources */,
@@ -550,6 +573,7 @@
 				0784D61128A36FDD009F7D14 /* NotificationCell.swift in Sources */,
 				07AF718928AC86F200BCCD94 /* AuthViewModel.swift in Sources */,
 				0784D60D28A34687009F7D14 /* UserListView.swift in Sources */,
+				07471F1D28B867BA00548013 /* ProfileViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
