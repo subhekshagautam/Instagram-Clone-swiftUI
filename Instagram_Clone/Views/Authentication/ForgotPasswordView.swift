@@ -31,7 +31,7 @@ struct ForgotPasswordView: View {
                     .foregroundColor(.gray)
                     .padding(.horizontal, 32)
             }
-            CustomButton(buttonTitle: "Reset Password"){
+            CustomButton(buttonTitle: "Reset Password", buttonWidth: 360, buttonHeight: 50, buttonBackgroundColor: .blue){
                 
             }
             Spacer()

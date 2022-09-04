@@ -41,7 +41,7 @@ struct RegisterView: View {
                         .foregroundColor(.gray)
                         .padding(.horizontal, 32)
                 }
-                CustomButton(buttonTitle: "Register"){
+                CustomButton(buttonTitle: "Register", buttonWidth: 360, buttonHeight: 50, buttonBackgroundColor: .blue){
                     viewModel.register(withEmail:email , withPassword: password, username: username)
                 }
                 

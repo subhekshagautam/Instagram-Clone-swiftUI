@@ -13,7 +13,7 @@ struct UploadPostView: View {
     @State var imagePickerRepresented = false
     @State private var shouldPresentActionScheet = false
     @State var sourceType:UIImagePickerController.SourceType = .camera
-    
+    @ObservedObject var viewModel = UploadPostViewModel()
     
     var body: some View {
         VStack{
@@ -29,7 +29,10 @@ struct UploadPostView: View {
                     }   .padding(.top,20)
                         .padding(.leading, 8)
                     Button {
-                        
+                        //guard var selectedImage = selectedImage else { return}
+                        viewModel.uploadPost(image: selectedImage!, caption: captionText)
+                        captionText = ""
+                        selectedImage = nil
                     } label: {
                         Text("share")
                             .font(.system(size: 16))

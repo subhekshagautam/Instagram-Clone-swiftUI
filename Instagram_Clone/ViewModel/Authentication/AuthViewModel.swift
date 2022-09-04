@@ -43,7 +43,7 @@ class AuthViewModel: ObservableObject {
             let data = ["email": email,
                         "username": username,
                         "uid": user.uid]
-            Firestore.firestore().collection("users").document(user.uid).setData(data) { err in
+            Firestore.firestore().collection("Users").document(user.uid).setData(data) { err in
                 if let err = err{
                     print(err.localizedDescription)
                     return
@@ -63,7 +63,7 @@ class AuthViewModel: ObservableObject {
     
     func fetchUser(){
         guard let uid = userSession?.uid else {return}
-        Firestore.firestore().collection("users").document(uid).getDocument { (snap, err) in
+        Firestore.firestore().collection("Users").document(uid).getDocument { (snap, err) in
             if let err = err {
                 print(err.localizedDescription)
                 return

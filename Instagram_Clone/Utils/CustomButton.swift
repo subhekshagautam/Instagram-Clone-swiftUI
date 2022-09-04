@@ -10,15 +10,18 @@ import SwiftUI
 struct CustomButton: View {
     
     var buttonTitle : String
+    var buttonWidth : CGFloat
+    var buttonHeight : CGFloat
+    var buttonBackgroundColor : SwiftUI.Color
     var clicked: (() -> Void) /// use closure for callback
     var body: some View {
 
         Button(action: clicked , label: {
             Text(buttonTitle)
                 .font(.headline)
-                .frame(width: 360, height: 50)
-                .foregroundColor(.white)
-                .background(Color.blue)
+                .frame(width: buttonWidth, height: buttonHeight)
+                .foregroundColor(Color.white)
+                .background(buttonBackgroundColor)
                 .cornerRadius(10)
                 .padding()
         })
@@ -28,6 +31,6 @@ struct CustomButton: View {
 
 struct CustomButton_Previews: PreviewProvider {
     static var previews: some View {
-        CustomButton(buttonTitle: "hello"){}
+        CustomButton(buttonTitle: "hello", buttonWidth: 360, buttonHeight: 50, buttonBackgroundColor: .blue){}
     }
 }

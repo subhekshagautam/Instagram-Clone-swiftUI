@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		073C1B4C28BAE71600F6D809 /* ProfileButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C1B4B28BAE71600F6D809 /* ProfileButtonView.swift */; };
+		073C1B4E28BF68B500F6D809 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C1B4D28BF68B500F6D809 /* UploadPostViewModel.swift */; };
+		073C1B5028C1A2E800F6D809 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C1B4F28C1A2E700F6D809 /* ImageUploader.swift */; };
 		07471F1B28B390F600548013 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07471F1A28B390F600548013 /* User.swift */; };
 		07471F1D28B867BA00548013 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07471F1C28B867BA00548013 /* ProfileViewModel.swift */; };
 		0784D602289DF136009F7D14 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0784D601289DF136009F7D14 /* PostView.swift */; };
@@ -75,6 +78,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073C1B4B28BAE71600F6D809 /* ProfileButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButtonView.swift; sourceTree = "<group>"; };
+		073C1B4D28BF68B500F6D809 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
+		073C1B4F28C1A2E700F6D809 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		07471F1A28B390F600548013 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		07471F1C28B867BA00548013 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		0784D601289DF136009F7D14 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
@@ -207,7 +213,7 @@
 		07AF718628AC86C200BCCD94 /* Upload */ = {
 			isa = PBXGroup;
 			children = (
-				07471F1C28B867BA00548013 /* ProfileViewModel.swift */,
+				073C1B4D28BF68B500F6D809 /* UploadPostViewModel.swift */,
 			);
 			path = Upload;
 			sourceTree = "<group>";
@@ -215,6 +221,7 @@
 		07AF718728AC86C900BCCD94 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				07471F1C28B867BA00548013 /* ProfileViewModel.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -227,7 +234,6 @@
 				07AF719928AE567800BCCD94 /* LogoDropdown.swift */,
 				07AF719E28AF5D8000BCCD94 /* UploadPostView.swift */,
 				07AF71A228B1B81E00BCCD94 /* PostImageView.swift */,
-				07AF71A428B1BC2700BCCD94 /* ImagePickerView.swift */,
 			);
 			path = TopBarView;
 			sourceTree = "<group>";
@@ -334,6 +340,7 @@
 			children = (
 				0784D60A28A33282009F7D14 /* Extensions.swift */,
 				07AF716C28A9EA0600BCCD94 /* ImagePicker.swift */,
+				07AF71A428B1BC2700BCCD94 /* ImagePickerView.swift */,
 				07AF717928AB814600BCCD94 /* CustomTextField.swift */,
 				07AF717B28AB853F00BCCD94 /* CustomSecureField.swift */,
 				07AF717D28ABC81300BCCD94 /* CustomButton.swift */,
@@ -344,6 +351,7 @@
 		07FAF4E5289A121300251C9A /* API */ = {
 			isa = PBXGroup;
 			children = (
+				073C1B4F28C1A2E700F6D809 /* ImageUploader.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -391,6 +399,7 @@
 				07FAF4FB289A226400251C9A /* ProfileView.swift */,
 				07AF717028AA5A7B00BCCD94 /* ProfileHeaderView.swift */,
 				07AF717228AA5BD000BCCD94 /* UserStats.swift */,
+				073C1B4B28BAE71600F6D809 /* ProfileButtonView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -562,6 +571,7 @@
 				0784D60928A32AD7009F7D14 /* SearchBar.swift in Sources */,
 				07AF719828AE49B000BCCD94 /* DropDownView.swift in Sources */,
 				07AF719628AE30F300BCCD94 /* MainTopBarView.swift in Sources */,
+				073C1B5028C1A2E800F6D809 /* ImageUploader.swift in Sources */,
 				07AF717128AA5A7B00BCCD94 /* ProfileHeaderView.swift in Sources */,
 				07471F1B28B390F600548013 /* User.swift in Sources */,
 				07AF718028ABD60800BCCD94 /* ForgotPasswordView.swift in Sources */,
@@ -573,6 +583,8 @@
 				0784D61128A36FDD009F7D14 /* NotificationCell.swift in Sources */,
 				07AF718928AC86F200BCCD94 /* AuthViewModel.swift in Sources */,
 				0784D60D28A34687009F7D14 /* UserListView.swift in Sources */,
+				073C1B4C28BAE71600F6D809 /* ProfileButtonView.swift in Sources */,
+				073C1B4E28BF68B500F6D809 /* UploadPostViewModel.swift in Sources */,
 				07471F1D28B867BA00548013 /* ProfileViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

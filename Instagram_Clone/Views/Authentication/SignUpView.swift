@@ -47,7 +47,7 @@ struct SignUpView: View {
                     }
                     
                 }
-                CustomButton(buttonTitle: "Login"){
+                CustomButton(buttonTitle: "Login", buttonWidth: 360, buttonHeight: 50, buttonBackgroundColor: .blue){
                     viewModel.login(withEmail: email, withpassword: password)
                 }
                 Spacer()
